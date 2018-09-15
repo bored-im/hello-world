@@ -4,7 +4,7 @@ group: travis_lts
 matrix:
   fast_finish: true
   include:
-    - rvm: 2.5.0
+    - rvm: 2.5.1
       language: ruby
       env:
         - RAILS_ENV=test
