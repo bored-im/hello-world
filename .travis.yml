@@ -1,8 +1,4 @@
-dist: trusty
-group: travis_lts
-
 matrix:
-  fast_finish: true
   include:
     - rvm: 2.5.1
       language: ruby
