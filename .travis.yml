@@ -1,6 +1,6 @@
 matrix:
   include:
-    - rvm: 2.5.1
+    - rvm: 2.5.0
       language: ruby
       env:
         - RAILS_ENV=test
