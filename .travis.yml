@@ -12,6 +12,7 @@ matrix:
         - mysql
       script:
         - ruby --version
+        - gem install rails
     - rvm: 2.4.1
       language: ruby
       env:
