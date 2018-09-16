@@ -4,7 +4,6 @@ matrix:
       language: ruby
       env:
         - RAILS_ENV=test
-        - "SPEC_GROUP=1,2"
       cache:
         bundler: true
       services:
@@ -16,7 +15,6 @@ matrix:
       language: ruby
       env:
         - RAILS_ENV=test
-        - "SPEC_GROUP=1,2"
       cache:
         bundler: true
       services:
